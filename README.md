@@ -1,10 +1,18 @@
 # Effects of Mental Workload and Socio-Cultural Factors on Conflict in Cancer Patient Decision-Making: A Cross-Sectional Questionnaire Study
 
-This repository contains the analysis code for the above study (Manuscript ID: 550819).
+This repository contains the analysis code for the above study.
 
 ## Requirements
 
 - R 4.3.1
+
+## File Structure
+
+```
+doubly_robust_plugin_estimator/
+  nasa_tlx.R   # Doubly robust estimation: NASA-TLX subscales -> DCS
+  hvics.R      # Doubly robust estimation: HVICS subscales -> DCS
+```
 
 ## Data Dictionary
 
